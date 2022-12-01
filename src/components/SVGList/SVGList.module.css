@@ -1,0 +1,18 @@
+.SVGList {
+  display: flex;
+  justify-content: space-between;
+  width: 15.4rem;
+  margin: 0 auto;
+}
+
+.SVGListItem:hover path {
+  fill: var(--color-accent);
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .SVGList {
+    width: 19.249rem;
+    margin: initial;
+  }
+}

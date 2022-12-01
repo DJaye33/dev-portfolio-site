@@ -1,0 +1,51 @@
+.Header {
+  text-align: center;
+}
+
+.HeaderIntro {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4rem;
+  letter-spacing: -0.1136rem;
+  margin-bottom: 2.4rem;
+}
+
+.HeaderTextGroup {
+  margin-top: 33.1rem;
+}
+
+.HeaderText {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: var(--color-text-mid);
+  margin-bottom: 2.4rem;
+}
+
+.HeaderIntroSpan {
+  position: relative;
+  white-space: nowrap;
+}
+
+.HeaderIntroSpan::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0.4rem;
+  background-color: var(--color-accent);
+  width: 100%;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .HeaderText {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+
+  .HeaderIntroSpan::after {
+    height: 0.6rem;
+    bottom: 0.05rem;
+    z-index: -1;
+  }
+}

@@ -1,0 +1,21 @@
+.App-Container {
+  background-image: url("./assets/images/image-profile-mobile.webp");
+  background-size: 17.4rem auto;
+  background-repeat: no-repeat;
+  background-position: center top;
+  border: 1px dotted red;
+  padding: 2rem 1.6rem;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .App-Container {
+    padding: 3rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .App-Container {
+    padding: 4rem;
+  }
+}
