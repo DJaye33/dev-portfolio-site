@@ -3,7 +3,7 @@
     url("./assets/images/image-profile-mobile.webp"),
     url("./assets/images/pattern-rings.svg");
   background-size: auto, 17.4rem auto, auto;
-  background-position: 31rem 26rem, center top, -35rem 13rem;
+  background-position: 125% 26rem, center top, 201% 13rem;
   background-repeat: no-repeat, no-repeat, no-repeat;
   padding: 2rem 1.6rem;
 }
