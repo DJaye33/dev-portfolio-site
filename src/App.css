@@ -11,12 +11,34 @@
 /* Media Queries */
 @media (min-width: 768px) {
   .App-Container {
+    background-image: url("./assets/images/pattern-circle.svg"),
+      url("./assets/images/image-profile-tablet.webp"),
+      url("./assets/images/pattern-rings.svg");
+    background-size: auto, 32.2rem auto, auto;
+    background-position: 110% 47rem, right top, -113% 11rem;
     padding: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .App-Container {
+    background-image: url("./assets/images/pattern-circle.svg"),
+      url("./assets/images/image-profile-desktop.webp"),
+      url("./assets/images/pattern-rings.svg");
+    background-size: auto, 44.5rem auto, auto;
+    background-position: 55% 55rem, right top, -50% 13rem;
+    padding: 4rem;
   }
 }
 
 @media (min-width: 1440px) {
   .App-Container {
-    padding: 4rem;
+    background-position: 59% 50rem, 83.4% top, -11% 15rem;
   }
 }
+
+/* @media (min-width: 1441px) {
+  .App-Container {
+    background-position: 55% 55rem, 84% top, -50% 13rem;
+  }
+} */

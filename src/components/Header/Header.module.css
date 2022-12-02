@@ -21,6 +21,10 @@
   margin-bottom: 2.4rem;
 }
 
+.HeaderTextBreak {
+  display: none;
+}
+
 .HeaderIntroSpan {
   position: relative;
   white-space: nowrap;
@@ -38,14 +42,63 @@
 
 /* Media Queries */
 @media (min-width: 768px) {
-  .HeaderText {
-    font-size: 1.8rem;
-    line-height: 2.8rem;
+  .Header {
+    text-align: left;
+  }
+
+  .HeaderTextGroup {
+    margin-top: 9rem;
+    max-width: 44.5rem;
+  }
+
+  .HeaderIntro {
+    font-size: 7.2rem;
+    line-height: 8.2rem;
+    letter-spacing: -0.204rem;
+    margin-bottom: 6rem;
+  }
+
+  .HeaderTextBreak {
+    display: block;
   }
 
   .HeaderIntroSpan::after {
     height: 0.6rem;
     bottom: 0.05rem;
     z-index: -1;
+  }
+
+  .HeaderText {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 3.4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .HeaderTextGroup {
+    max-width: 70.6rem;
+  }
+
+  .HeaderIntro {
+    font-size: 8.8rem;
+    line-height: 8.8rem;
+    letter-spacing: -0.25rem;
+    margin-bottom: 4.3rem;
+  }
+
+  .HeaderTextBreak {
+    display: none;
+  }
+
+  .HeaderText {
+    margin-bottom: 6.6rem;
+    max-width: 44.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .HeaderTextGroup {
+    max-width: 71.6rem;
   }
 }

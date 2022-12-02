@@ -1,5 +1,6 @@
 import Nav from "../Nav/Nav";
 import LinkButton from "../LinkButton/LinkButton";
+import Divider from "../Divider/Divider";
 
 import styles from "./Header.module.css";
 
@@ -9,7 +10,8 @@ const Header = () => {
       <Nav />
       <div className={styles.HeaderTextGroup}>
         <h1 className={styles.HeaderIntro}>
-          Nice to meet you! I'm{" "}
+          Nice to <br className={styles.HeaderTextBreak} />
+          meet you! I'm{" "}
           <span className={styles.HeaderIntroSpan}>Adam Keyes</span>.
         </h1>
         <p className={styles.HeaderText}>
@@ -18,6 +20,7 @@ const Header = () => {
         </p>
         <LinkButton linkText="contact me" />
       </div>
+      <Divider />
     </header>
   );
 };

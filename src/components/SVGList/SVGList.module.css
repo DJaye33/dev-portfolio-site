@@ -16,3 +16,10 @@
     margin: initial;
   }
 }
+
+@media (min-width: 1440px) {
+  .SVGList {
+    width: 19.249rem;
+    margin: 3rem;
+  }
+}
