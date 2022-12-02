@@ -1,6 +1,5 @@
 import Nav from "../Nav/Nav";
 import LinkButton from "../LinkButton/LinkButton";
-import Divider from "../Divider/Divider";
 
 import styles from "./Header.module.css";
 
@@ -20,7 +19,6 @@ const Header = () => {
         </p>
         <LinkButton linkText="contact me" />
       </div>
-      <Divider />
     </header>
   );
 };

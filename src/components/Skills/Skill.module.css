@@ -1,0 +1,17 @@
+.skillContainer {
+  margin-bottom: 2.4rem;
+}
+
+.skill {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  letter-spacing: -0.1rem;
+}
+
+.yearsExp {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: var(--color-text-mid);
+}

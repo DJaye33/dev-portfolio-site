@@ -1,5 +1,7 @@
 .Header {
   text-align: center;
+  padding-bottom: 8rem;
+  border-bottom: 0.1rem solid var(--color-text-white);
 }
 
 .HeaderIntro {
@@ -44,6 +46,7 @@
 @media (min-width: 768px) {
   .Header {
     text-align: left;
+    padding-bottom: 6rem;
   }
 
   .HeaderTextGroup {
@@ -76,6 +79,10 @@
 }
 
 @media (min-width: 1024px) {
+  .Header {
+    padding-bottom: 21.9rem;
+  }
+
   .HeaderTextGroup {
     max-width: 70.6rem;
   }
