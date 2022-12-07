@@ -1,7 +1,7 @@
 import styles from "./SkillsList.module.css";
 
 import Skills from "../Skills/Skill";
-import { skills } from "../../utils/Skills";
+import { skills } from "../../utils/skills";
 
 const SkillsList = () => {
   return (

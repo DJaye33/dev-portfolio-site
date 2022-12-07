@@ -1,0 +1,29 @@
+.ProjectsList {
+  margin-top: 4rem;
+}
+
+.ProjectsListCaption {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.ProjectsListLanguages {
+  display: flex;
+  gap: 1.8rem;
+  margin-top: 0.7rem;
+}
+
+.ProjectsListLanguage {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  text-transform: uppercase;
+  color: var(--color-text-mid);
+}
+
+.ProjectsListLinks {
+  display: flex;
+  margin-top: 2rem;
+  gap: 3rem;
+}

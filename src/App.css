@@ -1,8 +1,7 @@
 .App-Container {
-  background-image: url("./assets/images/pattern-circle.svg"),
-    url("./assets/images/image-profile-mobile.webp"),
-    url("./assets/images/pattern-rings.svg"),
-    url("./assets/images/pattern-rings.svg");
+  background-image: url("/images/pattern-circle.svg"),
+    url("/images/image-profile-mobile.webp"), url("/images/pattern-rings.svg"),
+    url("/images/pattern-rings.svg");
   background-size: auto, 17.4rem auto, auto, auto;
   background-position: 125% 26rem, center top, 201% 13rem, -110% 128rem;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
@@ -12,10 +11,9 @@
 /* Media Queries */
 @media (min-width: 768px) {
   .App-Container {
-    background-image: url("./assets/images/pattern-circle.svg"),
-      url("./assets/images/image-profile-tablet.webp"),
-      url("./assets/images/pattern-rings.svg"),
-      url("./assets/images/pattern-rings.svg");
+    background-image: url("/images/pattern-circle.svg"),
+      url("/images/image-profile-tablet.webp"), url("/images/pattern-rings.svg"),
+      url("/images/pattern-rings.svg");
     background-size: auto, 32.2rem auto, auto, auto;
     background-position: 110% 47rem, right top, -113% 11rem, 265% 101rem;
     padding: 3rem;
@@ -24,10 +22,9 @@
 
 @media (min-width: 1024px) {
   .App-Container {
-    background-image: url("./assets/images/pattern-circle.svg"),
-      url("./assets/images/image-profile-desktop.webp"),
-      url("./assets/images/pattern-rings.svg"),
-      url("./assets/images/pattern-rings.svg");
+    background-image: url("/images/pattern-circle.svg"),
+      url("/images/image-profile-desktop.webp"),
+      url("/images/pattern-rings.svg"), url("/images/pattern-rings.svg");
     background-size: auto, 44.5rem auto, auto;
     background-position: 55% 55rem, right top, -50% 13rem, 150% 110rem;
     padding: 4rem;

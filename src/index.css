@@ -43,11 +43,13 @@ h4,
 h5,
 h6,
 button,
-a {
+a,
+figcaption {
   font-weight: 700;
 }
 
-p {
+p,
+span {
   font-weight: 500;
 }
 
@@ -66,11 +68,3 @@ li {
 }
 
 /* END GLOBAL RESETS */
-
-/* Media Queries */
-/* @media (min-width: 1440px) {
-  body {
-    margin: auto;
-    max-width: 1440px;
-  }
-} */
