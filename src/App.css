@@ -1,10 +1,11 @@
 .App-Container {
   background-image: url("./assets/images/pattern-circle.svg"),
     url("./assets/images/image-profile-mobile.webp"),
+    url("./assets/images/pattern-rings.svg"),
     url("./assets/images/pattern-rings.svg");
-  background-size: auto, 17.4rem auto, auto;
-  background-position: 125% 26rem, center top, 201% 13rem;
-  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: auto, 17.4rem auto, auto, auto;
+  background-position: 125% 26rem, center top, 201% 13rem, -110% 128rem;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
   padding: 2rem 1.6rem;
 }
 
@@ -13,9 +14,10 @@
   .App-Container {
     background-image: url("./assets/images/pattern-circle.svg"),
       url("./assets/images/image-profile-tablet.webp"),
+      url("./assets/images/pattern-rings.svg"),
       url("./assets/images/pattern-rings.svg");
-    background-size: auto, 32.2rem auto, auto;
-    background-position: 110% 47rem, right top, -113% 11rem;
+    background-size: auto, 32.2rem auto, auto, auto;
+    background-position: 110% 47rem, right top, -113% 11rem, 265% 101rem;
     padding: 3rem;
   }
 }
@@ -24,15 +26,16 @@
   .App-Container {
     background-image: url("./assets/images/pattern-circle.svg"),
       url("./assets/images/image-profile-desktop.webp"),
+      url("./assets/images/pattern-rings.svg"),
       url("./assets/images/pattern-rings.svg");
     background-size: auto, 44.5rem auto, auto;
-    background-position: 55% 55rem, right top, -50% 13rem;
+    background-position: 55% 55rem, right top, -50% 13rem, 150% 110rem;
     padding: 4rem;
   }
 }
 
 @media (min-width: 1440px) {
   .App-Container {
-    background-position: 59% 50rem, 83.4% top, -11% 15rem;
+    background-position: 59% 50rem, 83.4% top, -11% 15rem, 135% 102rem;
   }
 }

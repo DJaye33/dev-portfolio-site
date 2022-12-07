@@ -68,9 +68,9 @@ li {
 /* END GLOBAL RESETS */
 
 /* Media Queries */
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
   body {
     margin: auto;
     max-width: 1440px;
   }
-}
+} */

@@ -7,7 +7,11 @@ const SkillsList = () => {
   return (
     <section className={styles.SkillsList}>
       {skills.map((skillType) => (
-        <Skills skill={skillType.skill} yearsExp={skillType.yearsExp} />
+        <Skills
+          key={skillType.skill}
+          skill={skillType.skill}
+          yearsExp={skillType.yearsExp}
+        />
       ))}
     </section>
   );

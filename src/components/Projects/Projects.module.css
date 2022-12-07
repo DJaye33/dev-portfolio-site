@@ -1,0 +1,31 @@
+.Projects {
+  padding-top: 8rem;
+}
+
+.ProjectsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ProjectsHeading {
+  font-size: 4rem;
+  line-height: 4rem;
+  letter-spacing: -0.136rem;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .ProjectsHeading {
+    font-size: 7.2rem;
+    line-height: 7.2rem;
+    letter-spacing: -0.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ProjectsHeading {
+    font-size: 8.8rem;
+    line-height: 8.8rem;
+  }
+}

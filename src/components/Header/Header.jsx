@@ -15,7 +15,8 @@ const Header = () => {
         </h1>
         <p className={styles.HeaderText}>
           Based in the UK, I'm a front-end developer passionate about building
-          accessible web apps that users love.
+          accessible web <br className={styles.HeaderTextBreak} /> apps that
+          users love.
         </p>
         <LinkButton linkText="contact me" />
       </div>

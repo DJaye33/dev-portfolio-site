@@ -4,15 +4,11 @@ export const skills = [
     yearsExp: "4 Years of Experience",
   },
   {
-    skill: "JavaScript",
+    skill: "CSS",
     yearsExp: "4 Years of Experience",
   },
   {
-    skill: "React",
-    yearsExp: "3 Years of Experience",
-  },
-  {
-    skill: "CSS",
+    skill: "JavaScript",
     yearsExp: "4 Years of Experience",
   },
   {
@@ -20,7 +16,11 @@ export const skills = [
     yearsExp: "4 Years of Experience",
   },
   {
+    skill: "React",
+    yearsExp: "3 Years of Experience",
+  },
+  {
     skill: "Sass",
-    yearsExp: "43 Years of Experience",
+    yearsExp: "3 Years of Experience",
   },
 ];

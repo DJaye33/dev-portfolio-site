@@ -1,4 +1,4 @@
-import { Container, Header, SkillsList } from "./components/index";
+import { Container, Header, SkillsList, Projects } from "./components/index";
 
 import "./App.css";
 
@@ -8,6 +8,7 @@ function App() {
       <Container>
         <Header />
         <SkillsList />
+        <Projects />
       </Container>
     </div>
   );
